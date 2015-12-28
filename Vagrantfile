@@ -12,9 +12,9 @@ Vagrant.configure(2) do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
-  config.vm.box = "stackroute-node5-mongo3.2"
-  config.vm.box_url = "http://172.23.238.253/vagrant/boxes/vividnode5.box"
-  # config.vm.provision "shell", path: "vagrantscripts/script.sh"
+  config.vm.box = "stackroute/wily64"
+  config.vm.box_url = "http://172.23.238.253/vagrant/boxes/wily64node5mongo32.box"
+
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
   # `vagrant box outdated`. This is not recommended.
