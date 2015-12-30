@@ -1,0 +1,14 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+$script = <<SCRIPT
+npm set registry http://172.23.238.253:4873/
+SCRIPT
+
+Vagrant.configure(2) do |config|
+  config.vm.box = "ubuntu/wily64"
+  config.vm.box_url = "http://172.23.253.238/vagrant/boxes/wily64v1.box"
+  config.vm.network "forwarded_port", guest: 8080, host: 8080
+  config.vm.provision "shell", inline: $script
+  config.vm.provision :puppet
+end
