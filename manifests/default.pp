@@ -16,6 +16,7 @@ class ubuntumongo {
 
   package { 'mongodb-org':
     ensure => installed,
+    install_options => ['--force-yes', '-y' ],
     require => Exec['update the apt-get'],
   }
 
