@@ -1,8 +1,6 @@
-header h1{
-  background: url(../img/logo.png) no-repeat;
-  text-indent: -9999px;
-  margin: 10px 10px;
-  float: left;
+/*Header*/
+header a img{
+  padding-top: 15px;
 }
 
 nav{
@@ -21,9 +19,15 @@ a{
   text-decoration: none;
   color:#1ba0d7;
 }
+a:hover{
+  text-decoration: underline;
+
+}
+/*Main Content*/
 .main_content{
   background: #eee;
   margin-top: 30px;
+  padding-bottom: 10px;
 }
 .container_12 .grid_12 h2{
   color: #444;
@@ -47,12 +51,19 @@ a{
 .grid_4 p{
 
   font-family: sans-serif;
+  margin-bottom: 10px;
 
 }
-a:hover{
-  text-decoration: underline;
+/*Button for Learn More*/
+.btn {
+    border-radius: 6px;
+    padding: 4px 22px;
+    background-color: #009bdf;
+    border-color: #009bdf;
+    color: #fff;
 
 }
+/*Footer*/
 footer{
   background-color: #eee;
   margin-top: 10px;
@@ -72,6 +83,7 @@ footer{
 .footer-list li:last-child:after{
   content: none;
 }
+/*Social Links*/
 .social-links li{
   display: inline;
 

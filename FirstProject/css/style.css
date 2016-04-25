@@ -1,8 +1,6 @@
-header h1{
-  background: url(../img/logo.png) no-repeat;
-  text-indent: -9999px;
-  margin: 10px 10px;
-  float: left;
+/*Header*/
+header a img{
+  padding-top: 15px;
 }
 
 nav{
@@ -16,20 +14,15 @@ nav ul{
   margin-top: 20px;
 
 }
-
+header a:hover{
+  text-decoration: underline;
+}
 a{
   text-decoration: none;
   color: #1ba0d7;
 }
-.vni a:hover{
-  text-decoration: underline;
-}
-.vni h2, .vni h5{
-  text-align: center;
-}
-header a:hover{
-  text-decoration: underline;
-}
+
+/*Banner*/
 .banner{
   background: url(../img/hero_element.jpg) no-repeat;
   width: 100%;
@@ -57,17 +50,18 @@ header a:hover{
 }
 .banner p{
   font-size: 2.2rem;
-margin-bottom: 30px;
-max-width: 880px;
-margin-left: auto;
-margin-right: auto;
-text-align: center;
-color: white;
-display: block;
-font-family: sans-serif;
-font-style: normal;
-font-weight: 100;
+  margin-bottom: 30px;
+  max-width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  display: block;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 100;
 }
+/*Main Content*/
 .main_content{
 
   padding-top: 30px;
@@ -133,6 +127,13 @@ font-weight: 100;
 .grid_6 h3 a:hover {
   text-decoration: underline;
 }
+.grid_6 p{
+  text-align: right;
+  font-size: 25px;
+  font-weight: 100;
+
+}
+/*Block Quotes*/
 blockquote{
   font-style: italic;
   font-size: 25px;
@@ -146,23 +147,22 @@ blockquote:after{
   content: close-quote;
   font-size: 25px;
 }
-.grid_6 p{
-  text-align: right;
-  font-size: 25px;
-  font-weight: 100;
-
+/*Button for Infographic*/
+.button{
+  padding-left: 150px;
 }
 .btn {
     border-radius: 6px;
     padding: 4px 22px;
-    text-align: center;
+
 }
 .btn-primary {
     background-color: #009bdf;
     border-color: #009bdf;
     color: #fff;
   }
-
+/*Last Content
+*/
 .vni{
   padding-top: 20px;
 
@@ -171,7 +171,15 @@ blockquote:after{
   font-size: 30px;
   font-family: sans-serif;
   color: #1ba0d7;
+  text-align: center;
 }
+.vni a:hover{
+  text-decoration: underline;
+}
+.vni h5{
+  text-align: center;
+}
+/*footer*/
 footer{
   background-color: #eee;
   margin-top: 10px;
@@ -191,6 +199,7 @@ footer{
 .footer-list li:last-child:after{
   content: none;
 }
+/*social-links*/
 .social-links li{
   display: inline;
 
