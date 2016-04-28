@@ -1,0 +1,74 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   .custom-nav a{
+
+     margin-left: 0px;
+
+   }
+
+   .navbar-brand {
+   	padding: 10px 15px;
+   }
+   #SearchInput{
+     width: 200px;
+   }
+  .dropdown-header{
+    font-size: 15px;
+  }
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
