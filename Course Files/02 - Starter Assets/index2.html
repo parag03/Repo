@@ -10,7 +10,7 @@
 
   <!-- Bootstrap CSS -->
   <!-- <link href="css/bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet"> -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
   <!-- Custom CSS -->
   <link href="css/styles.css" rel="stylesheet">
@@ -19,67 +19,59 @@
   <script src="includes/js/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
-  <div class="container" id="main">
-    <div class="navbar navbar-fixed-top custom-nav">
-      <a class="navbar-brand" href="/"><img src="images/logo0.png" alt="MY LOGO"></a>
-      <div class="nav-collapse collapse navbar-responsive-collapse">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Brand</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li>
-            <a href="#">Products & Services</a>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support<strong class="caret"></strong></a>
-          <ul class="dropdown-menu">
-
-            <li>
-              <a href="#">Product Support</a>
-            </li>
-            <li>
-              <a href="#">Support Community Forums</a>
-            </li>
-            <li class="divider"></li>
-            <li class="dropdown-header">Manage Software & Licenses</li>
-            <li><a href="#">Register & Manage Licenses</a></li>
-            <li><a href="#">Order Application Upgrade</a></li>
-            <li class="divider"></li>
-            <li class="dropdown-header">Small Business</li>
-            <li><a href="#">Support Center Contacts</a></li>
-            <li><a href="#">Community</a></li>
-          </ul>
-        </li>
-        <li>
-          <a  href="#">How to buy</a>
-        </li>
-        <li>
-          <a href="#">Training & Events</a>
-        </li>
-        <li>
-          <a href="#">Partners</a>
-        </li>
-      </ul><!--drop-down menu ends-->
-        <form class="navbar-form pull-left">
-          <input type="text" class="form-control" placeholder="Search..." id="SearchInput" />
-            <button type="submit" name="button" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-        </form><!--navbar-form ends-->
-        <ul class="nav navbar-nav pull-right">
+          <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">Link</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong class="caret"></strong>Settings <span class="glyphicon glyphicon-cog"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li>
-                <span class="glyphicon glyphicon-user"></span> Account
-              </li>
-              <li><span class="glyphicon glyphicon-log-in"></span>Log In</li>
-            </ul><!--dropdown-menu ends-->
-          </li><!--dropdown ends-->
-
-          <ul>
-
-          </ul>
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
         </ul>
-      </div><!--nav-collapse ends-->
-    </div><!--navbar-fixed-top ends-->
-
-  </div><!--container ends-->
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Link</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
 
 
   	<!-- All Javascript at the bottom of the page for faster page loading -->
