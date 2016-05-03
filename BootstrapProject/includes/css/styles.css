@@ -225,8 +225,11 @@ footer{
 .carousel-caption p{
   display: none;
 }
-}
 
+.first-feature a{
+  font-size: 20px;
+}
+}
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
 
@@ -240,6 +243,9 @@ footer{
   .carousel-caption p{
     font-size: 20px;
 
+  }
+  .secondtab img{
+    padding-top: 10px;
   }
 
 
