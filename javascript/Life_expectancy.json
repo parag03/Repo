@@ -1,0 +1,57 @@
+[
+  {
+    "CountryName": "Bhutan",
+    "Female": 2709.1059999999998,
+    "Male": 2705.8179999999993
+  },
+  {
+    "CountryName": "Cambodia",
+    "Female": 2729.223,
+    "Male": 2481.4060000000004
+  },
+  {
+    "CountryName": "China",
+    "Female": 3663.981999999999,
+    "Male": 3512.6280000000006
+  },
+  {
+    "CountryName": "India",
+    "Female": 3030.455999999999,
+    "Male": 3005.0540000000005
+  },
+  {
+    "CountryName": "Indonesia",
+    "Female": 3369.975,
+    "Male": 3210.1210000000005
+  },
+  {
+    "CountryName": "Japan",
+    "Female": 4328.5599999999995,
+    "Male": 4019.0200000000004
+  },
+  {
+    "CountryName": "Mongolia",
+    "Female": 3352.8750000000005,
+    "Male": 3057.615999999999
+  },
+  {
+    "CountryName": "Myanmar",
+    "Female": 3185.7790000000005,
+    "Male": 2934.1809999999996
+  },
+  {
+    "CountryName": "Pakistan",
+    "Female": 3167.3220000000006,
+    "Male": 3109.844
+  },
+  {
+    "CountryName": "Russian Federation",
+    "Female": 3947.576,
+    "Male": 3350.448000000001
+  },
+  {
+    "CountryName": "Thailand",
+    "Female": 3747.539,
+    "Male": 3417.6310000000008
+  }
+]
