@@ -261,7 +261,7 @@ d3.json(fileName,  function(error, data) {
   if (error) throw error;
 
   x.domain(data.map(function(d) { return d.CountryName; }));
-  y.domain([0, d3.max(data, function(d) { return d.Value; })]);
+  y.domain([4100, 4190]);
 
   svg.append("g")
       .attr("class", "x axis")

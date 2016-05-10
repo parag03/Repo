@@ -16,9 +16,7 @@
   shape-rendering: crispEdges;
 }
 
-.x.axis path {
-  display: none;
-}
+
 
 .rect{
   fill:blue;
