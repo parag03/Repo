@@ -1,0 +1,82 @@
+[
+  {
+    "Year": "2001",
+    "THEFT $500 AND UNDER Cases": 61777,
+    "THEFT ABOVE $500 Cases": 32871
+  },
+  {
+    "Year": "2002",
+    "THEFT $500 AND UNDER Cases": 47493,
+    "THEFT ABOVE $500 Cases": 27842
+  },
+  {
+    "Year": "2003",
+    "THEFT $500 AND UNDER Cases": 37023,
+    "THEFT ABOVE $500 Cases": 20654
+  },
+  {
+    "Year": "2004",
+    "THEFT $500 AND UNDER Cases": 35872,
+    "THEFT ABOVE $500 Cases": 19291
+  },
+  {
+    "Year": "2005",
+    "THEFT $500 AND UNDER Cases": 27920,
+    "THEFT ABOVE $500 Cases": 18849
+  },
+  {
+    "Year": "2006",
+    "THEFT $500 AND UNDER Cases": 27182,
+    "THEFT ABOVE $500 Cases": 20724
+  },
+  {
+    "Year": "2007",
+    "THEFT $500 AND UNDER Cases": 25238,
+    "THEFT ABOVE $500 Cases": 22118
+  },
+  {
+    "Year": "2008",
+    "THEFT $500 AND UNDER Cases": 25396,
+    "THEFT ABOVE $500 Cases": 24141
+  },
+  {
+    "Year": "2009",
+    "THEFT $500 AND UNDER Cases": 24216,
+    "THEFT ABOVE $500 Cases": 21502
+  },
+  {
+    "Year": "2010",
+    "THEFT $500 AND UNDER Cases": 24632,
+    "THEFT ABOVE $500 Cases": 21851
+  },
+  {
+    "Year": "2011",
+    "THEFT $500 AND UNDER Cases": 28993,
+    "THEFT ABOVE $500 Cases": 15668
+  },
+  {
+    "Year": "2012",
+    "THEFT $500 AND UNDER Cases": 29526,
+    "THEFT ABOVE $500 Cases": 15978
+  },
+  {
+    "Year": "2013",
+    "THEFT $500 AND UNDER Cases": 27898,
+    "THEFT ABOVE $500 Cases": 15615
+  },
+  {
+    "Year": "2014",
+    "THEFT $500 AND UNDER Cases": 28841,
+    "THEFT ABOVE $500 Cases": 14954
+  },
+  {
+    "Year": "2015",
+    "THEFT $500 AND UNDER Cases": 24629,
+    "THEFT ABOVE $500 Cases": 12651
+  },
+  {
+    "Year": "2016",
+    "THEFT $500 AND UNDER Cases": 6047,
+    "THEFT ABOVE $500 Cases": 3563
+  }
+]
