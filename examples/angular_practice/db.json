@@ -1,0 +1,22 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "fname": "Parag",
+      "lname": "Somani",
+      "age": 18
+    },
+    {
+      "fname": "sj",
+      "lname": "nx",
+      "age": 12,
+      "id": 2
+    },
+    {
+      "fname": "jd",
+      "lname": "jsnw",
+      "age": 12,
+      "id": 3
+    }
+  ]
+}

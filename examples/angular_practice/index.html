@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>My Form</title>
+  </head>
+  <body ng-app="myApp">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+  <script src="formControl.js"></script>
+  <script src="FormService.js"></script>
+    <div ng-controller="myControl">
+      <form name="form1" action="" method="">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" ng-model="userInfo.fname"></input><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" ng-model="userInfo.lname"></input><br>
+        <label for="age">Age:</label>
+        <input type="text" id="age" ng-model="userInfo.age"></input><br>
+        <input type="submit" value="Save" ng-click="adduser()" />
+      </form>
+      <ul>
+        <li ng-repeat = "item in user">
+          {{ 'User: ' + item.fname + " " + item.lname + " " + item.age }}
+        </li>
+      </ul>
+
+    </div>
+
+
+  </body>
+</html>
