@@ -1,0 +1,20 @@
+#wrap{
+  width:100px;
+  height:200px;
+  background: red;
+  margin: auto;
+  position: relative;
+  left :100px;
+
+}
+#in{
+  width:10px;
+  height:40px;
+  background: orange;
+  margin:auto;
+  position: absolute;
+  top:30px;
+  left:10px;
+
+
+}

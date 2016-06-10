@@ -1,0 +1,261 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+.feature:hover {
+       transform: scale(1.1);}
+
+.panel-heading{
+  text-align: center;
+}
+.panel-title{
+  font-size: 20px;
+  color: #1ba0d7;
+
+}
+.feature p{
+  text-align: center;
+  color: #1ba0d7;
+  font-size: 16px;
+}
+#features{
+  padding-top: 30px;
+}
+.feature{
+      transition: all 0.3s ease 0s;
+}
+
+
+.gov{
+  background: url("../../images/digital_india.jpg") no-repeat ;
+  background-size: cover;
+  border: 0;
+  float: left;
+  padding: 0;
+  margin-right: 6px;
+  width: 386px;
+  height: 276px;
+}
+
+.active-content{
+  background: url("../../images/secondary-offer-overlay.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;
+  color: #fff;
+  height: 95%;
+  margin: 2%;
+  padding: 0;
+  text-align: center;
+  visibility: hidden;
+  width: 96%;
+
+}
+.gov:hover .active-content{
+  visibility: visible;
+}
+.tab-content .row{
+  padding-top: 20px;
+}
+.first-feature a{
+  font-size: 30px;
+}
+
+.firsttab img,.secondtab img, .thirdtab img{
+  width: 100%;
+
+}
+#heading{
+  font-size: 30px;
+}
+blockquote{
+  border-left-color: #337AB7;
+  background-color: #eee;
+}
+.list-group a{
+  font-size: 14px ;
+}
+.unstyled{
+  padding: 0px;
+}
+.unstyled img{
+  width: 35px;
+
+}
+.unstyled li{
+  display: inline;
+}
+.unstyled1{
+  list-style: none;
+  padding: 0px;
+}
+footer{
+  background: #f8f9f9;
+}
+
+.alert{
+  margin-top: 20px;
+  display: none;
+}
+.img-circle{
+  height: 200px;
+  width: 200px;
+}
+.well img{
+  width: 100%;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   .custom-nav a{
+
+     margin-left: 0px;
+
+   }
+
+   .navbar-brand {
+   	padding: 10px 15px;
+   }
+   #SearchInput{
+     width: 150px;
+   }
+  .dropdown-header{
+    font-size: 15px;
+  }
+.navig{
+  padding: 20px;
+}
+.dropdown-menu li{
+  padding-left: 16px;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+#myCarousel{
+  margin-top:50px;
+}
+#slide1 img,#slide2 img,#slide3 img{
+  height: 350px ;
+  width:100%;
+}
+.carousel-caption{
+
+  padding-top: 0px;
+}
+.carousel-caption h2{
+  font-size: 40px;
+  font-weight: 400;
+
+
+
+  font-family: sans-serif;
+}
+.carousel-caption p{
+  font-size: 25px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+.page-header{
+  text-align: center;
+  display: inline;
+}
+.page-header li{
+    display: inline;
+    float: left;
+    text-align: center;
+    width: 16.66%;
+    margin-bottom: 0;
+
+    margin-left: 80px;
+}
+.myIcon{
+    border: 1px solid #d4d4d4;
+    border-radius: 50%;
+    height: 54px;
+    width: 54px;
+    display: block;
+    margin: 0 auto 10px;
+    position: relative;
+    transition: background 0s ease 0s,border-color .2s ease 0s;
+}
+.myIcon .glyphicon {
+  font-size: 30px;
+}
+.myIcon span{
+  padding-top: 10px;
+
+  padding-left: 3px;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+.img-circle{
+  width: 100px;
+  height: 100px;
+}
+.carousel-caption p{
+  display: none;
+}
+
+.first-feature a{
+  font-size: 20px;
+}
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+  #myCarousel img{
+
+  width: 100%;
+  height:250px;}
+  .carousel-caption h2{
+    font-size: 30px;
+  }
+  .carousel-caption p{
+    font-size: 20px;
+
+  }
+  .secondtab img{
+    padding-top: 10px;
+  }
+
+
+}
+/* Large desktop */
+@media (min-width: 1200px) {
+
+#myCarousel img{
+  width: 100%;
+  height: 500px;
+}
+
+}
